@@ -20,6 +20,8 @@ module.exports =withMT( {
         transparent: 'transparent',
         current: 'currentColor',
         'white': '#ffffff',
+        'green':'#84cc16',
+        'rose':'#f43f5e',
         'violet': {
           100: '#ede9fe',
           200: '#ddd6fe',
