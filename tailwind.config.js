@@ -22,6 +22,7 @@ module.exports =withMT( {
         'white': '#ffffff',
         'green':'#84cc16',
         'rose':'#f43f5e',
+        'grey':'#44403c',
         'violet': {
           100: '#ede9fe',
           200: '#ddd6fe',
