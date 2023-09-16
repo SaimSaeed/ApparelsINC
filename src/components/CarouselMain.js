@@ -1,8 +1,8 @@
 import React from 'react'
 import { Carousel, Typography, Button } from "@material-tailwind/react";
-import Pic1 from "../Assets/Carousel1.jpg"
-import Pic2 from "../Assets/Carousel2.jpg"
-import Pic3 from "../Assets/Carousel3.jpg"
+import Pic1 from "../Assets/Carousel1.webp"
+import Pic2 from "../Assets/Carousel2.webp"
+import Pic3 from "../Assets/Carousel3.webp"
 
 function CarouselMain() {
   return (
