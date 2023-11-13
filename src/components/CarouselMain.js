@@ -19,14 +19,14 @@ function CarouselMain() {
             <Typography
               variant="h1"
               color="white"
-              className="mb-4 text-3xl md:text-4xl lg:text-5xl"
+              className="mb-4 text-3xl text-[1rem] sm:text-2xl md:text-4xl lg:text-5xl"
             >
               Embrace Your Looks
             </Typography>
             <Typography
               variant="lead"
               color="white"
-              className="mb-12 opacity-80"
+              className="mb-12 opacity-80 text-[0.7rem]   md:text-md lg: text-lg"
             >
               It is not so much for its beauty that the forest makes a claim
               upon men&apos;s hearts, as for that subtle something, that quality
@@ -34,10 +34,10 @@ function CarouselMain() {
               and renews a weary spirit.
             </Typography>
             <div className="flex justify-center gap-2">
-              <Button size="lg" color="purple">
+              <Button size="lg" color="purple" className='hidden sm:block md:block'>
                 Explore
               </Button>
-              <Button size="lg" color="purple" variant="outlined">
+              <Button size="lg" color="purple" variant="outlined" className='hidden sm:block md:block'>
                 Gallery
               </Button>
             </div>
@@ -55,14 +55,14 @@ function CarouselMain() {
             <Typography
               variant="h1"
               color="white"
-              className="mb-4 text-3xl md:text-4xl lg:text-5xl"
+              className="mb-4 text-3xl text-[1rem] sm:text-2xl md:text-4xl lg:text-5xl   "
             >
               Be Your Best Self
             </Typography>
             <Typography
               variant="lead"
               color="white"
-              className="mb-12 opacity-80"
+              className="mb-12 opacity-80 text-[0.7rem]   md:text-md lg: text-lg"
             >
               It is not so much for its beauty that the forest makes a claim
               upon men&apos;s hearts, as for that subtle something, that quality
@@ -70,10 +70,10 @@ function CarouselMain() {
               and renews a weary spirit.
             </Typography>
             <div className="flex gap-2 ">
-            <Button size="lg" color="purple">
+            <Button size="lg" color="purple" className='hidden sm:block md:block'>
                 Explore
               </Button>
-              <Button size="lg" color="purple" variant="outlined">
+              <Button size="lg" color="purple" variant="outlined" className='hidden sm:block md:block'>
                 Gallery
               </Button>
             </div>
@@ -91,14 +91,14 @@ function CarouselMain() {
             <Typography
               variant="h1"
               color="white"
-              className="mb-4 text-3xl md:text-4xl lg:text-5xl"
+              className="mb-4 text-3xl text-[1rem] sm:text-2xl md:text-4xl lg:text-5xl"
             >
               Look Good and Beautiful
             </Typography>
             <Typography
               variant="lead"
               color="white"
-              className="mb-12 opacity-80"
+              className="mb-12 opacity-80 text-[0.7rem]   md:text-md lg: text-lg"
             >
               It is not so much for its beauty that the forest makes a claim
               upon men&apos;s hearts, as for that subtle something, that quality
@@ -106,10 +106,10 @@ function CarouselMain() {
               and renews a weary spirit.
             </Typography>
             <div className="flex gap-2">
-            <Button size="lg" color="purple">
+            <Button size="lg" color="purple" className='hidden sm:block md:block'>
                 Explore
               </Button>
-              <Button size="lg" color="purple" variant="outlined">
+              <Button size="lg" color="purple" variant="outlined" className='hidden sm:block md:block'>
                 Gallery
               </Button>
             </div>

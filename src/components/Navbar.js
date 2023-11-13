@@ -16,7 +16,7 @@ function Navbar() {
 
 
     {/* Navlist */}
-<ul className={bar ? 'flex flex-col mx-auto text-center text-white':'flex justify-evenly items-center w-3/5 text-white sm:hidden md:flex '} >
+<ul className={bar ? 'flex flex-col mx-auto text-center text-white':'flex justify-evenly items-center w-3/5 text-white hidden lg:flex '} >
 <li><a href='/'>Home</a></li>
 <li><a href='/'>Categories</a></li>
 <li><a href='/'>Services</a></li>
@@ -42,7 +42,7 @@ function Navbar() {
 </svg>
 
 </div>
-<FaBars className='absolute right-0 mr-4 md:hidden' color='white' size={20} onClick={clickBar}/>
+<FaBars className='absolute right-0 mr-4 lg:hidden' color='white' size={20} onClick={clickBar}/>
 
    </nav>
    </header>

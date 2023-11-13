@@ -1,28 +1,40 @@
 import React from 'react'
 import Overcoat from "../Assets/overcoat.jpg"
+import img from "../Assets/img0.jpg"
+import img1 from "../Assets/img6.webp"
+import img2 from "../Assets/img1.jpg"
+import img3 from "../Assets/img2.jpg"
+import img4 from "../Assets/img4.jpg"
+import img5 from "../Assets/img5.jpg"
+
+
+
 
 
 function BlogSection() {
   return (
-    <div className='bg-grey w-full p-16 h-[44rem] '>
+    <div className='bg-grey w-full p-16  h-[44rem] '>
       <div className='flex container mx-auto'>
         <div className='w-3/6 h-96 hidden md:block '>
           <div className='bg-purple-700 w-full h-96 relative  '>
-            <h1 className='text-3xl text-white font-semibold pt-8 pl-10'>Clothing</h1>
-            <button className='absolute w-2 h-2 bg-white bottom-0 right-0 p-1 m-8'></button>
+            <h1 className='text-xl text-white font-semibold p-2 absolute drop-shadow-xl border border-purple-500 bg-purple-500 m-5 rounded opacity-80'>Clothing</h1>
+            <button className='absolute w-2 h-2 bg-fuchsia-600 bottom-0 right-0 p-1 m-8'></button>
+            <img src={img} className='w-full h-full'/>
 
           </div>
           <div className='flex w-full h-48'>
             <div className='bg-black w-1/2 h-full relative  '>
-              <h1 className='text-3xl text-white font-semibold pt-8 pl-10'>Brands</h1>
+              <h1 className='text-md text-white font-semibold p-2 absolute drop-shadow-xl border border-purple-500 bg-purple-500 m-5 rounded opacity-80'>Brands</h1>
 
-              <button className='absolute w-2 h-2 bg-white bottom-0 right-0 p-1 m-8'></button>
-
+              <button className='absolute w-2 h-2 bg-green bottom-0 right-0 p-1 m-8'></button>
+              <img src={img2} className='w-full h-full'/>
             </div>
             <div className='bg-purple-900 w-1/2 h-full relative  '>
-              <h1 className='text-3xl text-white font-semibold pt-8 pl-10'>Designs</h1>
+              <h1 className='text-md text-white font-semibold p-2 absolute drop-shadow-xl border border-purple-500 bg-purple-500 m-5 rounded opacity-80'>Designs</h1>
 
-              <button className='absolute w-2 h-2 bg-white bottom-0 right-0 p-1 m-8'></button>
+              <button className='absolute w-2 h-2 bg-rose bottom-0 right-0 p-1 m-8'></button>
+              <img src={img1} className='w-full h-full'/>
+
 
             </div>
           </div>
@@ -31,21 +43,26 @@ function BlogSection() {
 
         <div className='w-1/4 h-96 hidden md:block' >
           <div className='bg-fuchsia-800 w-full h-1/2 relative  '>
-            <h1 className='text-3xl text-white font-semibold pt-8 pl-10'>Makeup</h1>
+            <h1 className='text-md text-white font-semibold p-2 absolute drop-shadow-xl border border-purple-500 bg-purple-500 m-5 rounded opacity-80'>Makeup</h1>
 
-            <button className='absolute w-2 h-2 bg-white bottom-0 right-0 p-1 m-8'></button>
+            <button className='absolute w-2 h-2 bg-rose bottom-0 right-0 p-1 m-8'></button>
+            <img src={img3} className='w-full h-full'/>
+
 
           </div>
           <div className='bg-rose w-full h-1/2 relative '>
-            <h1 className='text-3xl text-white font-semibold pt-8 pl-10'>Acessories</h1>
+            <h1 className='text-md text-white font-semibold p-2 absolute drop-shadow-xl border border-purple-500 bg-purple-500 m-5 rounded opacity-80'>Acessories</h1>
 
-            <button className='absolute w-2 h-2 bg-white bottom-0 right-0 p-1 m-8'></button>
+            <button className='absolute w-2 h-2 bg-green bottom-0 right-0 p-1 m-8'></button>
+            <img src={img4} className='w-full h-full'/>
+
 
           </div>
           <div className='bg-green w-full h-1/2 relative  '>
-            <h1 className='text-3xl text-white font-semibold pt-8 pl-10'>Outfits</h1>
+            <h1 className='text-md text-white font-semibold p-2 absolute drop-shadow-xl border border-purple-500 bg-purple-500 m-5 rounded opacity-80'>Outfits</h1>
 
-            <button className='absolute w-2 h-2 bg-white bottom-0 right-0 p-1 m-8'></button>
+            <button className='absolute w-2 h-2 bg-fuchsia-600 bottom-0 right-0 p-1 m-8'></button>
+            <img src={img5} className='w-full h-full'/>
 
           </div>
 
