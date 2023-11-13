@@ -11,7 +11,7 @@ function Navbar() {
    <nav className='flex py-4 relative'>
     {/* Logo */}
     <div className='w-1/5 sm: ml-4'> 
-     <img src={Logo} alt='LOGO' className='rounded-md w-64 mx-auto'/>
+     <img src={Logo} alt='LOGO' className='rounded-md w-[12rem] mx-auto'/>
     </div>
 
 
